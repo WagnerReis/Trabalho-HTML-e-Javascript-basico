@@ -1,0 +1,91 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<HTML>
+<HEAD>
+ <TITLE>New Document</TITLE>
+       <script>
+
+      dataCompleta = new Date();
+
+
+      dia = dataCompleta.getDay();
+
+      switch(dia)
+      {
+                 case 0:
+                 diaSemana = "Domingo";
+                 break;
+                 case 1:
+                 diaSemana = "Segunda-feira";
+                 break;
+                 case 2:
+                 diaSemana = "Ter�a-feira";
+                 break;
+                 case 3:
+                 diaSemana = "Quarta-feira";
+                 break;
+                 case 4:
+                 diaSemana = "Quinta-feira";
+                 break;
+                 case 5:
+                 diaSemana = "Sexta-feira";
+                 break;
+                 case 6:
+                 diaSemana = "Sabado";
+                 break;
+      }
+
+
+
+      diaMes = dataCompleta.getDate();
+      mes = dataCompleta.getMonth();
+
+            switch(mes)
+      {
+                 case 0:
+                 mesAtual = "Janeiro";
+                 break;
+                 case 1:
+                 mesAtual = "Fevereiro";
+                 break;
+                 case 2:
+                 mesAtual = "Mar�o";
+                 break;
+                 case 3:
+                 mesAtual = "Abril";
+                 break;
+                 case 4:
+                 mesAtual = "Maio";
+                 break;
+                 case 5:
+                 mesAtual = "Junho";
+                 break;
+                 case 6:
+                 mesAtual = "Julho";
+                 break;
+                 case 7:
+                 mesAtual = "Agosto";
+                 break;
+                 case 8:
+                 mesAtual = "Setembro";
+                 break;
+                 case 9:
+                 mesAtual = "Outubro";
+                 break;
+                 case 10:
+                 mesAtual = "Novembro";
+                 break;
+                 case 11:
+                 mesAtual = "Dezembro";
+                 break;
+      }
+
+      ano = dataCompleta.getFullYear();
+
+      document.write("Juiz de Fora - MG, " + diaSemana + ", " + diaMes + " de " + mesAtual + " de " + ano + ".");
+
+      </script>
+</HEAD>
+<BODY>
+
+</BODY>
+</HTML>
